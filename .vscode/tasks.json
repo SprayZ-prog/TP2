@@ -1,0 +1,40 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build",
+            "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "-IC:\\msys64\\mingw64\\include/SDL2",
+                "-Dmain=SDL_main",
+                "-L${fileDirname}",
+                "-LC:\\msys64\\mingw64\\lib",
+                "${fileDirname}\\Window.hpp",
+                "${fileDirname}\\TP5.hpp",
+                "${fileDirname}\\main.cpp",
+                "-o",
+                "${fileDirname}\\420202RETP5.exe",
+                "-l420202RETP5",
+                "-lSDL2_ttf",
+                "-lSDL2_image",
+                "-lmingw32",
+                "-lSDL2main",
+                "-lSDL2",
+                "-mwindows"
+            ],
+            "options": {
+                "cwd": "C:\\msys64\\mingw64\\bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Tâche générée par le débogueur."
+        }
+    ],
+    "version": "2.0.0"
+}

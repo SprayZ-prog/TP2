@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": ["${workspaceFolder}", "C:\\msys64\\mingw64\\include\\SDL2"],
+            "defines": [],
+            "compilerPath": "C:\\msys64\\mingw64\\bin\\g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "browse": {
+              "path": ["${workspaceFolder}"],
+              "limitSymbolsToIncludedHeaders": true,
+              "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
